@@ -1,0 +1,31 @@
+html {
+	direction: rtl;
+}
+[class*="span"] {
+	float: right !important;
+}
+.pull-right{
+	float: left !important;
+}
+.control-label, .brand {
+	float: right !important;
+}
+.navbar .nav > li {
+float: right !important;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+float: right !important;
+margin-left: 0 !important;
+margin-right: -20px !important;
+}
+.radio, .checkbox {
+	padding-left: 0 !important;
+	padding-right: 20px !important;
+}
+.form-horizontal .form-actions {
+	padding-right: 180px !important;
+}
+.auth-at-home button.btn-login {
+margin-right: 13px !important;
+margin-left: 0 !important;
+}
